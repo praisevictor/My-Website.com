@@ -1,0 +1,311 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 150px;
+    justify-content: center;
+}
+.img1{
+    height: 490px;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.container{
+    background: #fff;
+    width: 400px;
+    height: 490px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.fume{
+    padding-top: 3px;
+    padding-left: 50px;
+    color: hsl(228, 12%, 48%);
+}
+.fum{
+    font-size: 43px;
+    padding-left: 50px;
+    padding-right: 30px;
+    margin-top: -5px;
+}
+.fu{
+    margin-top: -20px;
+    padding-right: 30px;
+    font-size: 22px;
+    color: hsl(228, 12%, 48%);
+}
+.word{
+    padding-left: 50px;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+}
+.red{
+    color: hsl(228, 12%, 48%); 
+    font-size: 19px;
+}
+button{
+    border: 0px solid;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-size: 19px;
+    margin-left: 50px;
+    background-color: hsl(158, 36%, 37%);
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkgreen;
+}
+.attribution{
+    font-size: 50px; 
+    margin-top: -100px; 
+    text-align: center;
+}
+.but1:hover{
+    border-color: red;
+    background-color: gold; 
+    box-shadow: 10px 10px 10px greenyellow;  
+    transition-duration: 3s;
+}
+.a1:hover{
+    color: black;
+    transition-duration: 2s;
+}
+@media screen and (max-width: 390px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .attribution{
+        display: none;
+    }
+    .img1{
+        width: 320px;
+        height: 460px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .container{
+        width: 320px;
+        height: 500px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-top: -20px;
+    }
+    .fume{
+        padding-left: 25px;
+    }
+    .fum{
+        margin-left: -25px;
+    }
+    .word{
+        margin-left: -25px;
+    }
+    button{
+        margin-left: 10px;
+    }
+    .red{
+        font-size: 20px;
+    }
+}
+@media screen and (width: 414px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        align-items: center;
+    }
+    .img1{
+        width: 380px;
+        height: 460px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .container{
+        width: 380px;
+        height: 500px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-top: -20px;
+    }
+    .attribution{
+        display: none;
+    }
+    .fuz{
+        margin-left: -20px;
+    }
+    button{
+        margin-left: 25px;
+    }
+    .red{
+        font-size: 30px;
+    }
+}
+@media screen and (width: 428px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        align-items: center;
+    }
+    .img1{
+        width: 380px;
+        height: 460px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .container{
+        width: 380px;
+        height: 500px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-top: -20px;
+    }
+    .attribution{
+        display: none;
+    }
+    .fuz{
+        margin-left: -20px;
+    }
+    button{
+        margin-left: 25px;
+    }
+    button img{
+        padding-right: 15px;
+    }
+    .red{
+        font-size: 20px;
+    }
+}
+@media screen and (width: 768px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        align-items: center;
+    }
+    .img1{
+        width: 600px;
+        height: 650px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .container{
+        width: 600px;
+        height: 730px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-top: -20px;
+    }
+    .fus{
+        margin-top: 50px;
+    }
+    .attribution{
+        display: none;
+    }
+    .fuz{
+        margin-left: -10px;
+    }
+    button{
+        margin-left: 33px;
+        width: 500px;
+        height: 60px;
+        font-size: 30px;
+    }
+    .fum{
+        font-size: 60px;
+    }
+    .fume{
+        font-size: 40px;
+    }
+    .word{
+        font-size: 50px;
+    }
+    button img{
+        width: 25px;
+        padding-right: 15px;
+    }
+    .red{
+        font-size: 30px;
+    }
+}
+@media screen and (width: 800px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        align-items: center;
+    }
+    .img1{
+        width: 600px;
+        height: 650px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .container{
+        width: 600px;
+        height: 730px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-top: -20px;
+    }
+    .fus{
+        margin-top: 50px;
+    }
+    .attribution{
+        display: none;
+    }
+    .fuz{
+        margin-left: -10px;
+    }
+    button{
+        margin-left: 33px;
+        width: 500px;
+        height: 60px;
+        font-size: 30px;
+    }
+    .fum{
+        font-size: 60px;
+    }
+    .fume{
+        font-size: 40px;
+    }
+    .word{
+        font-size: 50px;
+    }
+    button img{
+        width: 25px;
+        padding-right: 15px;
+    }
+    .red{
+        font-size: 30px;
+    }
+}
+/* This Is The End Of My Code, Please Do Not Manipulate This Code */

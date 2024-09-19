@@ -1,0 +1,85 @@
+#description{
+    font-size: 20px;
+    text-align: center;
+    border: 0px solid;
+    width: 400px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    padding: color= "white";
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+#code{
+    border-radius: 11px;
+    margin: auto;
+    margin-top: 20px;
+    width: 300px; 
+    height: 300px;
+}
+.attribution{
+    text-align: center;
+    margin-top: 50px;
+}
+.but1{
+    text-align: center;
+    background-color: transparent;
+    border: 3px solid;
+    box-shadow: 10px 10px 10px;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-color: white;
+    border-radius: 20px;
+    width: 200px;
+}
+.a1{
+    text-decoration: none;
+    color: white;
+}
+.but1:hover{
+    border-color: red;
+    background-color: gold; 
+    box-shadow: 10px 10px 10px greenyellow;  
+    transition-duration: 3s;
+}
+.a1:hover{
+    color: black;
+    transition-duration: 2s;
+}
+@media screen and (max-width: 390px) {
+    #description{
+        width: 320px;
+    }
+    #code{
+        align-items: center;
+        margin-top: 20px;
+        border-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .attribution a{
+        text-decoration: none;
+    }
+    .attribution{
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 400px) {
+    #description{
+        width: 320px;
+    }
+    #code{
+        align-items: center;
+        margin-top: 20px;
+        border-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .attribution a{
+        text-decoration: none;
+    }
+    .attribution{
+        font-size: 40px;
+    }
+/* This Is The End Of My Code, Please Do not Manipulate This Code */
