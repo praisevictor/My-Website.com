@@ -117,6 +117,9 @@ h1:hover{
     .attribution{
         text-align: center;
     }
+    .button{
+        margin-left: -30px;
+    }
 }
 @media screen and (max-width: 450px) {
     .container{
@@ -154,7 +157,9 @@ h1:hover{
     h3{
         margin-top: 85px;
     }
-    
+    .button{
+        margin-left: -10px;
+    }
 }
 @media screen and (max-width: 500px) {
     .container{
